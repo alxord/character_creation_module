@@ -1,4 +1,6 @@
-"""Документация модуля Описывает работу функций."""
+"""Документация модуля Описывает работу функций.
+Игра RPG «Питонические Воины: Тёмная Сторона Кода»
+"""
 
 
 from random import randint
@@ -48,8 +50,12 @@ def special(char_name: str, char_class: str) -> str:
 def start_training(char_name: str, char_class: str) -> str:
     """Тренировка.
     Сначала идет проверка класса.
+    
     Используем команды:
-    attack(атака), defence(защита), special(спец_атака).
+                       attack(атака)
+                       defence(защита)
+                       special(спец_атака)
+                       
     Для пропуска тренировки skip.
     """
     if char_class == 'warrior':
